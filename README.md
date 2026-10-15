@@ -16,7 +16,7 @@ Tersedia dalam **Bahasa Indonesia** dan **Inggris** (mengikuti bahasa perangkat)
 - Ganti atau hapus foto profil
 - Keluar dengan konfirmasi
 
-<p align="center"><img src="docs/screenshots/fitur1.png" alt="Fitur Akun" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur.png" alt="Fitur Akun" width="100%"></p>
 
 ### Beranda
 - Feed postingan dari akun yang diikuti, terbaru di atas
