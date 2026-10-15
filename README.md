@@ -42,19 +42,19 @@ Tersedia dalam **Bahasa Indonesia** dan **Inggris** (mengikuti bahasa perangkat)
 - Daftar pengikut dan mengikuti
 - Profil akun lain dengan tombol Ikuti / Mengikuti dan Pesan
 
-<p align="center"><img src="docs/screenshots/fitur4.png" alt="Fitur Profil" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur4.png" alt="Fitur Profil" width="90%"></p>
 
 ### Pencarian
 - Cari akun berdasarkan username
 
-<p align="center"><img src="docs/screenshots/fitur5.png" alt="Fitur Pencarian" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur5.png" alt="Fitur Pencarian" width="90%"></p>
 
 ### Aktivitas
 - "xxx Menyukai Postingan Anda" lengkap dengan thumbnail postingan
 - "xxx Mulai Mengikuti Anda"
 - Foto profil dan waktu di setiap baris; ketuk untuk membuka profil atau postingan
 
-<p align="center"><img src="docs/screenshots/fitur6.png" alt="Fitur Aktivitas" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur6.png" alt="Fitur Aktivitas" width="90%"></p>
 
 ### Pesan Langsung
 - Daftar percakapan dengan pesan terakhir, diperbarui real-time
@@ -62,14 +62,14 @@ Tersedia dalam **Bahasa Indonesia** dan **Inggris** (mengikuti bahasa perangkat)
 - Chat real-time dengan pemisah tanggal dan status Online
 - Hapus pesan untuk semua orang (maks. 24 jam setelah dikirim)
 
-<p align="center"><img src="docs/screenshots/fitur7.png" alt="Fitur Pesan Langsung" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur7.png" alt="Fitur Pesan Langsung" width="90%"></p>
 
 ### Notifikasi Push
 - Pesan baru, suka baru, dan pengikut baru
 - Ketuk notifikasi untuk langsung membuka chat, postingan, atau profil terkait
 - Kanal terpisah (Chat, Suka, Pengikut) yang bisa diatur masing-masing di pengaturan Android
 
-<p align="center"><img src="docs/screenshots/fitur8.png" alt="Fitur Notifikasi Push" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur8.png" alt="Fitur Notifikasi Push" width="90%"></p>
 
 ---
 
