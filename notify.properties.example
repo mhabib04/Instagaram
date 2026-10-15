@@ -1,0 +1,3 @@
+# Copy to notify.properties (git-ignored) and fill in the AWS Lambda Function URL of server/notify.
+# Leave empty to run the app without push notifications.
+NOTIFY_URL=

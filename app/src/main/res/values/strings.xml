@@ -1,0 +1,190 @@
+<resources>
+    <!-- English (default). Indonesian lives in values-in/strings.xml -->
+
+    <!-- App -->
+    <string name="app_name" translatable="false">Instagaram</string>
+    <string name="instagaram" translatable="false">Instagaram</string>
+
+    <!-- Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="cd_back">Back</string>
+    <string name="error_connection">Connection failed. Please try again.</string>
+
+    <!-- Login -->
+    <string name="login_tagline">Share your moments with friends</string>
+    <string name="hint_password">Password</string>
+    <string name="cd_toggle_password">Show or hide password</string>
+    <string name="action_login">Log in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="error_enter_password">Enter your password</string>
+    <string name="error_login_invalid">Your username or password is incorrect</string>
+
+    <!-- Register -->
+    <string name="register_tagline">Sign up to see photos from your friends</string>
+    <string name="cd_pick_profile_photo">Choose profile photo</string>
+    <string name="add_photo">Add photo</string>
+    <string name="max_photo_size">optional\nmax 50MB</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="password_match">Passwords match</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="error_password_too_short">Password must be at least 8 characters</string>
+    <string name="error_enter_name">Enter your name</string>
+    <string name="error_enter_username">Enter a username</string>
+    <string name="error_confirm_password">Confirm your password</string>
+    <string name="error_username_registered">Username is already taken</string>
+    <string name="error_username_too_short">Username must be at least 4 characters</string>
+    <string name="username_available">Username is available</string>
+    <string name="error_image_too_large">Image is larger than 50MB, please choose a smaller one</string>
+
+    <!-- Home feed -->
+    <string name="cd_direct_messages">Direct messages</string>
+    <string name="empty_feed_following">No posts yet from accounts you follow.\nFind people to follow in Search.</string>
+
+    <!-- Posts -->
+    <!-- SimpleDateFormat pattern for post dates -->
+    <string name="post_date_pattern">hh.mm a - MMMM d, yyyy</string>
+    <!-- SimpleDateFormat patterns for when a like happened (Activity tab, likes sheet) -->
+    <string name="like_time_today_pattern">hh.mm a</string>
+    <string name="like_time_yesterday_pattern">\'Yesterday\' hh.mm a</string>
+    <string name="like_time_this_year_pattern">MMM d, hh.mm a</string>
+    <string name="like_time_older_pattern">MMM d, yyyy</string>
+    <string name="title_post">Post</string>
+    <string name="cd_like">Like</string>
+    <string name="cd_unlike">Unlike</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_options">Options</string>
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string name="title_likes">Likes</string>
+    <string name="empty_likes">No likes yet</string>
+    <string name="delete_post">Delete post</string>
+    <string name="dialog_delete_post_title">Delete this post?</string>
+    <string name="dialog_delete_post_message">The post and its likes will be removed. This cannot be undone.</string>
+    <string name="share_via">Share via</string>
+    <string name="share_text">\"%1$s\" by @%2$s at %3$s</string>
+    <string name="error_get_posts">Failed to load posts</string>
+    <string name="error_get_post">Failed to load post</string>
+    <string name="error_like">Failed to like post</string>
+    <string name="error_dislike">Failed to unlike post</string>
+    <string name="error_delete_post">Failed to delete post</string>
+    <string name="error_no_image_to_share">There is no image to share</string>
+    <string name="error_no_share_app">No app can handle sharing</string>
+
+    <!-- Profile -->
+    <string name="label_posts">Posts</string>
+    <string name="label_followers">Followers</string>
+    <string name="label_following">Following</string>
+    <string name="label_likes">Likes</string>
+    <string name="title_followers">Followers</string>
+    <string name="title_following">Following</string>
+    <string name="empty_followers">No followers yet</string>
+    <string name="empty_following">You don\'t follow anyone yet</string>
+    <string name="tab_posts">POSTS</string>
+    <string name="cd_logout">Log out</string>
+    <string name="cd_change_profile_photo">Change profile photo</string>
+    <string name="hint_tap_profile_photo">Tap your profile photo to change it</string>
+    <string name="dialog_logout_title">Log out?</string>
+    <string name="dialog_logout_message">You will need to log in again to use your account.</string>
+    <string name="action_logout">Log out</string>
+    <string name="error_logout">Failed to log out</string>
+    <string name="error_get_user_posts">Failed to load your posts</string>
+    <string name="profile_photo_update_failed">Failed to update profile photo</string>
+    <string name="title_profile_photo">Profile photo</string>
+    <string name="action_change_photo">Change photo</string>
+    <string name="action_delete_photo">Delete photo</string>
+    <string name="dialog_delete_photo_title">Delete profile photo?</string>
+    <string name="dialog_delete_photo_message">Your profile will show the default picture instead.</string>
+    <string name="profile_photo_deleted">Profile photo deleted</string>
+    <string name="empty_user_posts">No posts yet</string>
+    <string name="error_get_user">Failed to load profile</string>
+
+    <!-- Search & follow -->
+    <string name="hint_search_username">Search username</string>
+    <string name="search_prompt">Search for accounts by username</string>
+    <string name="search_no_results">No accounts found</string>
+    <string name="action_follow">Follow</string>
+    <string name="action_following">Following</string>
+    <string name="action_message">Message</string>
+    <string name="error_follow">Failed to update follow</string>
+
+    <!-- Upload -->
+    <string name="title_new_post">Create new post</string>
+    <string name="pick_from_gallery">Choose a photo from your gallery</string>
+    <string name="photo_formats_hint">JPG / PNG · max 50MB</string>
+    <string name="pick_photo">Choose photo</string>
+    <string name="caption_label">Tell the story</string>
+    <string name="caption_hint">Write a short caption…</string>
+    <string name="share_now">Share now</string>
+    <string name="error_select_post_image">Please choose a photo to post</string>
+    <string name="upload_not_configured">Image upload is not configured yet.</string>
+    <string name="upload_failed">Failed to upload image</string>
+
+    <!-- Messages -->
+    <string name="empty_conversations">No conversations yet.\nTap + to start chatting.</string>
+    <string name="title_new_message">New message</string>
+    <string name="suggested">Suggested</string>
+    <string name="empty_users">No users available</string>
+    <string name="empty_following_users">You don\'t follow anyone yet.\nFollow accounts from Search to message them here.</string>
+    <string name="error_update_token">Failed to update notification token</string>
+
+    <!-- Chat room -->
+    <string name="hint_message">Message…</string>
+    <string name="cd_send">Send</string>
+    <string name="status_online">● Online</string>
+    <string name="chat_today">Today</string>
+    <string name="chat_yesterday">Yesterday</string>
+    <string name="chat_delete">Delete message</string>
+    <string name="chat_delete_confirm">Delete this message for everyone?</string>
+    <string name="chat_delete_expired">Messages can only be deleted within 24 hours of sending</string>
+    <string name="chat_delete_failed">Failed to delete message</string>
+    <string name="chat_delete_message">It will be removed for you and the other person. This cannot be undone.</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Activity -->
+    <string name="title_activity">Activity</string>
+    <string name="activity_liked_post">%1$s liked your post</string>
+    <string name="activity_started_following">%1$s started following you</string>
+    <string name="empty_activity">No activity yet.\nWhen someone likes your post or follows you, it will show up here.</string>
+    <string name="cd_open_profile">Open profile</string>
+
+    <!-- Notification channels (Android settings) -->
+    <string name="channel_chat_name">Chat</string>
+    <string name="channel_chat_description">New direct messages</string>
+    <string name="channel_likes_name">Likes</string>
+    <string name="channel_likes_description">When someone likes your post</string>
+    <string name="channel_followers_name">Followers</string>
+    <string name="channel_followers_description">When someone starts following you</string>
+
+    <!-- Edit profile -->
+    <string name="action_edit_profile">Edit profile</string>
+    <string name="title_edit_profile">Edit profile</string>
+    <string name="label_name">Name</string>
+    <string name="action_save">Save</string>
+    <string name="error_update_profile">Failed to update profile</string>
+
+    <!-- Change password -->
+    <string name="action_change_password">Change password</string>
+    <string name="title_change_password">Change password</string>
+    <string name="current_password_prompt">Enter your current password to continue</string>
+    <string name="hint_current_password">Current password</string>
+    <string name="action_next">Next</string>
+    <string name="error_wrong_current_password">Current password is incorrect</string>
+    <string name="new_password_prompt">Create a new password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="error_same_password">New password must be different from the current one</string>
+    <string name="password_changed">Password changed</string>
+    <string name="error_change_password">Failed to change password</string>
+</resources>

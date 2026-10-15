@@ -1,0 +1,4 @@
+# Copy to cloudinary.properties (git-ignored) and fill in.
+# Both values are public by design; never put CLOUDINARY_API_SECRET here.
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_UPLOAD_PRESET=

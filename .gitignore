@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/cloudinary.properties
+/notify.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local Firestore backups (contain password hashes)
+/firestore-backup/
+
+# Archives and Firebase service-account keys must never be committed
+*.zip
+*-adminsdk-*.json
+
+# Firebase client config (holds the API key); download it from the Firebase Console
+/app/google-services.json

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand gradient (story ring, primary buttons, sent bubbles) -->
+    <color name="brand_start">#7B3FE4</color>
+    <color name="brand_center">#E1306C</color>
+    <color name="brand_end">#F9A03F</color>
+
+    <color name="primary">#E1306C</color>
+    <color name="primary_dark">#B81F55</color>
+    <color name="like_red">#FF3040</color>
+    <color name="online">#2BC56E</color>
+
+    <!-- Semantic surfaces & text (overridden in values-night) -->
+    <color name="app_background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F2F3F5</color>
+    <color name="text_primary">#121417</color>
+    <color name="text_muted">#737885</color>
+    <color name="outline">#E6E8EC</color>
+    <color name="bubble_received">#EFEFF2</color>
+
+    <!-- Legacy names; "black" is the primary text color and is tinted from Java -->
+    <color name="black">@color/text_primary</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

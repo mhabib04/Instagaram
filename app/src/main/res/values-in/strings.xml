@@ -1,0 +1,185 @@
+<resources>
+    <!-- Bahasa Indonesia. English (default) lives in values/strings.xml -->
+
+    <!-- Navigasi -->
+    <string name="title_home">Beranda</string>
+    <string name="title_search">Pencarian</string>
+    <string name="title_upload">Unggah</string>
+    <string name="title_profile">Profil</string>
+
+    <!-- Umum -->
+    <string name="cancel">Batal</string>
+    <string name="cd_back">Kembali</string>
+    <string name="error_connection">Koneksi gagal. Silakan coba lagi.</string>
+
+    <!-- Masuk -->
+    <string name="login_tagline">Bagikan momenmu bersama teman</string>
+    <string name="hint_password">Kata sandi</string>
+    <string name="cd_toggle_password">Tampilkan atau sembunyikan kata sandi</string>
+    <string name="action_login">Masuk</string>
+    <string name="don_t_have_an_account">Belum punya akun?</string>
+    <string name="sign_up">Daftar</string>
+    <string name="error_enter_password">Masukkan kata sandi</string>
+    <string name="error_login_invalid">Nama pengguna atau Kata sandi Anda Salah</string>
+
+    <!-- Daftar -->
+    <string name="register_tagline">Daftar untuk melihat foto dari teman-temanmu</string>
+    <string name="cd_pick_profile_photo">Pilih foto profil</string>
+    <string name="add_photo">Tambah foto</string>
+    <string name="max_photo_size">opsional\nmaks. 50MB</string>
+    <string name="hint_username">Nama pengguna</string>
+    <string name="hint_full_name">Nama lengkap</string>
+    <string name="hint_confirm_password">Konfirmasi kata sandi</string>
+    <string name="already_have_account">Sudah punya akun?</string>
+    <string name="password_match">Kata sandi cocok</string>
+    <string name="password_mismatch">Kata sandi tidak cocok</string>
+    <string name="error_password_too_short">Kata sandi minimal 8 karakter</string>
+    <string name="error_enter_name">Masukkan nama</string>
+    <string name="error_enter_username">Masukkan nama pengguna</string>
+    <string name="error_confirm_password">Konfirmasi kata sandi kamu</string>
+    <string name="error_username_registered">Nama pengguna sudah dipakai</string>
+    <string name="error_username_too_short">Nama pengguna minimal 4 karakter</string>
+    <string name="username_available">Nama pengguna tersedia</string>
+    <string name="error_image_too_large">Ukuran gambar lebih dari 50MB, pilih gambar yang lebih kecil</string>
+
+    <!-- Beranda -->
+    <string name="cd_direct_messages">Pesan langsung</string>
+    <string name="empty_feed_following">Belum ada postingan dari akun yang kamu ikuti.\nCari akun untuk diikuti di tab Pencarian.</string>
+
+    <!-- Postingan -->
+    <!-- SimpleDateFormat pattern for post dates -->
+    <string name="post_date_pattern">HH.mm - d MMMM yyyy</string>
+    <!-- Pola waktu like (tab Aktivitas, daftar suka) -->
+    <string name="like_time_today_pattern">HH.mm</string>
+    <string name="like_time_yesterday_pattern">\'Kemarin\' HH.mm</string>
+    <string name="like_time_this_year_pattern">d MMM, HH.mm</string>
+    <string name="like_time_older_pattern">d MMM yyyy</string>
+    <string name="title_post">Postingan</string>
+    <string name="cd_like">Suka</string>
+    <string name="cd_unlike">Batal suka</string>
+    <string name="cd_share">Bagikan</string>
+    <string name="cd_options">Opsi</string>
+    <plurals name="likes_count">
+        <item quantity="other">%d suka</item>
+    </plurals>
+    <string name="title_likes">Suka</string>
+    <string name="empty_likes">Belum ada yang menyukai</string>
+    <string name="delete_post">Hapus postingan</string>
+    <string name="dialog_delete_post_title">Hapus postingan ini?</string>
+    <string name="dialog_delete_post_message">Postingan beserta semua suka di dalamnya akan dihapus. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="share_via">Bagikan melalui</string>
+    <string name="share_text">\"%1$s\" oleh @%2$s pada %3$s</string>
+    <string name="error_get_posts">Gagal memuat postingan</string>
+    <string name="error_get_post">Gagal memuat postingan</string>
+    <string name="error_like">Gagal menyukai postingan</string>
+    <string name="error_dislike">Gagal membatalkan suka</string>
+    <string name="error_delete_post">Gagal menghapus postingan</string>
+    <string name="error_no_image_to_share">Tidak ada gambar yang dapat dibagikan</string>
+    <string name="error_no_share_app">Tidak ada aplikasi untuk membagikan</string>
+
+    <!-- Profil -->
+    <string name="label_posts">Postingan</string>
+    <string name="label_followers">Pengikut</string>
+    <string name="label_following">Mengikuti</string>
+    <string name="label_likes">Suka</string>
+    <string name="title_followers">Pengikut</string>
+    <string name="title_following">Mengikuti</string>
+    <string name="empty_followers">Belum ada pengikut</string>
+    <string name="empty_following">Kamu belum mengikuti siapa pun</string>
+    <string name="tab_posts">POSTINGAN</string>
+    <string name="cd_logout">Keluar</string>
+    <string name="cd_change_profile_photo">Ubah foto profil</string>
+    <string name="hint_tap_profile_photo">Ketuk foto profil untuk mengubahnya</string>
+    <string name="dialog_logout_title">Keluar dari akun?</string>
+    <string name="dialog_logout_message">Kamu perlu masuk lagi untuk menggunakan akunmu.</string>
+    <string name="action_logout">Keluar</string>
+    <string name="error_logout">Gagal keluar</string>
+    <string name="error_get_user_posts">Gagal memuat postingan kamu</string>
+    <string name="profile_photo_update_failed">Gagal memperbarui foto profil</string>
+    <string name="title_profile_photo">Foto profil</string>
+    <string name="action_change_photo">Ubah foto</string>
+    <string name="action_delete_photo">Hapus foto</string>
+    <string name="dialog_delete_photo_title">Hapus foto profil?</string>
+    <string name="dialog_delete_photo_message">Profilmu akan memakai gambar default.</string>
+    <string name="profile_photo_deleted">Foto profil dihapus</string>
+    <string name="empty_user_posts">Belum ada postingan</string>
+    <string name="error_get_user">Gagal memuat profil</string>
+
+    <!-- Pencarian & ikuti -->
+    <string name="hint_search_username">Cari nama pengguna</string>
+    <string name="search_prompt">Cari akun berdasarkan nama pengguna</string>
+    <string name="search_no_results">Akun tidak ditemukan</string>
+    <string name="action_follow">Ikuti</string>
+    <string name="action_following">Mengikuti</string>
+    <string name="action_message">Pesan</string>
+    <string name="error_follow">Gagal memperbarui status mengikuti</string>
+
+    <!-- Unggah -->
+    <string name="title_new_post">Buat postingan baru</string>
+    <string name="pick_from_gallery">Pilih foto dari galeri</string>
+    <string name="photo_formats_hint">JPG / PNG · maks. 50MB</string>
+    <string name="pick_photo">Pilih foto</string>
+    <string name="caption_label">Ceritakan momennya</string>
+    <string name="caption_hint">Tulis caption singkat…</string>
+    <string name="share_now">Bagikan sekarang</string>
+    <string name="error_select_post_image">Silakan pilih foto untuk diposting</string>
+    <string name="upload_not_configured">Unggah gambar belum dikonfigurasi.</string>
+    <string name="upload_failed">Gagal mengunggah gambar</string>
+
+    <!-- Pesan -->
+    <string name="empty_conversations">Belum ada percakapan.\nKetuk + untuk mulai mengobrol.</string>
+    <string name="title_new_message">Pesan baru</string>
+    <string name="suggested">Disarankan</string>
+    <string name="empty_users">Tidak ada pengguna</string>
+    <string name="empty_following_users">Kamu belum mengikuti siapa pun.\nIkuti akun dari tab Pencarian untuk mengirim pesan di sini.</string>
+    <string name="error_update_token">Gagal memperbarui token notifikasi</string>
+
+    <!-- Ruang chat -->
+    <string name="hint_message">Pesan…</string>
+    <string name="cd_send">Kirim</string>
+    <string name="status_online">● Online</string>
+    <string name="chat_today">Hari ini</string>
+    <string name="chat_yesterday">Kemarin</string>
+    <string name="chat_delete">Hapus pesan</string>
+    <string name="chat_delete_confirm">Hapus pesan ini untuk semua orang?</string>
+    <string name="chat_delete_expired">Pesan hanya bisa dihapus dalam 24 jam setelah dikirim</string>
+    <string name="chat_delete_failed">Gagal menghapus pesan</string>
+    <string name="chat_delete_message">Pesan akan dihapus untuk kamu dan lawan bicara. Tindakan ini tidak bisa dibatalkan.</string>
+    <string name="action_delete">Hapus</string>
+
+    <!-- Aktivitas -->
+    <string name="title_activity">Aktivitas</string>
+    <string name="activity_liked_post">%1$s Menyukai Postingan Anda</string>
+    <string name="activity_started_following">%1$s Mulai Mengikuti Anda</string>
+    <string name="empty_activity">Belum ada aktivitas.\nSaat ada yang menyukai postinganmu atau mulai mengikutimu, akan muncul di sini.</string>
+    <string name="cd_open_profile">Buka profil</string>
+
+    <!-- Kanal notifikasi (pengaturan Android) -->
+    <string name="channel_chat_name">Chat</string>
+    <string name="channel_chat_description">Pesan langsung yang baru masuk</string>
+    <string name="channel_likes_name">Suka</string>
+    <string name="channel_likes_description">Saat ada yang menyukai postinganmu</string>
+    <string name="channel_followers_name">Pengikut</string>
+    <string name="channel_followers_description">Saat ada yang mulai mengikutimu</string>
+
+    <!-- Edit profil -->
+    <string name="action_edit_profile">Edit profil</string>
+    <string name="title_edit_profile">Edit profil</string>
+    <string name="label_name">Nama</string>
+    <string name="action_save">Simpan</string>
+    <string name="error_update_profile">Gagal memperbarui profil</string>
+
+    <!-- Ubah kata sandi -->
+    <string name="action_change_password">Ubah Kata Sandi</string>
+    <string name="title_change_password">Ubah kata sandi</string>
+    <string name="current_password_prompt">Masukkan kata sandi saat ini untuk melanjutkan</string>
+    <string name="hint_current_password">Kata sandi saat ini</string>
+    <string name="action_next">Lanjut</string>
+    <string name="error_wrong_current_password">Kata sandi saat ini salah</string>
+    <string name="new_password_prompt">Buat kata sandi baru</string>
+    <string name="hint_new_password">Kata sandi baru</string>
+    <string name="hint_confirm_new_password">Konfirmasi kata sandi baru</string>
+    <string name="error_same_password">Kata sandi baru harus berbeda dari yang sekarang</string>
+    <string name="password_changed">Kata sandi berhasil diubah</string>
+    <string name="error_change_password">Gagal mengubah kata sandi</string>
+</resources>

@@ -1,0 +1,16 @@
+{
+  "name": "instagaram-notify",
+  "version": "1.0.0",
+  "description": "AWS Lambda that sends Instagaram chat/like/follow push notifications through FCM",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.7.0"
+  },
+  "scripts": {
+    "test": "node --test test/handler.test.js"
+  }
+}

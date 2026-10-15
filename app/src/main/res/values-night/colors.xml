@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#000000</color>
+    <color name="surface">#121212</color>
+    <color name="surface_variant">#1F1F22</color>
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_muted">#9EA3AE</color>
+    <color name="outline">#2A2B2F</color>
+    <color name="bubble_received">#26272B</color>
+</resources>

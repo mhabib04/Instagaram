@@ -1,0 +1,25 @@
+[versions]
+activity = "1.8.0"
+appcompat = "1.6.1"
+circleimageview = "3.1.0"
+compiler = "4.13.0"
+constraintlayout = "2.1.4"
+espressoCore = "3.5.1"
+glide = "4.16.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+material = "1.10.0"
+roundedimageview = "2.3.0"
+
+[libraries]
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }

@@ -1,0 +1,6 @@
+node_modules/
+*.zip
+# Never commit the Firebase service-account key
+*.json
+!package.json
+!package-lock.json
