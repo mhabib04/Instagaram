@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat;
 import com.example.instagaram.R;
 import com.example.instagaram.databinding.ActivityChangePasswordBinding;
 import com.example.instagaram.utilities.Constants;
+import com.example.instagaram.utilities.CredentialSaver;
 import com.example.instagaram.utilities.NewPasswordInput;
 import com.example.instagaram.utilities.PreferenceManager;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -109,7 +110,13 @@ public class ChangePasswordActivity extends BaseActivity {
                 .update(Constants.KEY_PASSWORD, BCrypt.hashpw(password, BCrypt.gensalt()))
                 .addOnSuccessListener(unused -> {
                     Toast.makeText(this, R.string.password_changed, Toast.LENGTH_SHORT).show();
-                    finish();
+                    // Lets the password manager replace the old saved password with the new one.
+                    String username = new PreferenceManager(this).getString(Constants.KEY_USERNAME);
+                    if (username == null || username.isEmpty()) {
+                        finish();
+                    } else {
+                        CredentialSaver.offerToSave(this, username, password, this::finish);
+                    }
                 })
                 .addOnFailureListener(e -> {
                     setLoading(binding.btnSavePassword, binding.progressSave, false);

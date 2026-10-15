@@ -61,6 +61,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.constraintlayout)
     implementation(libs.activity)
+    // Offers "Save password?" after registering / changing the password (the fields themselves are not autofillable).
+    implementation(libs.credentials)
+    implementation(libs.credentials.play.services.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

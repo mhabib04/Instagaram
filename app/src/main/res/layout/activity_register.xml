@@ -93,7 +93,7 @@
         </FrameLayout>
 
 
-        <EditText
+        <com.example.instagaram.views.NoAutofillEditText
             android:id="@+id/etUsername"
             style="@style/Input"
             android:layout_marginTop="28dp"
@@ -125,13 +125,13 @@
             android:inputType="textPersonName|textCapWords"
             android:maxLength="25" />
 
-        <EditText
+        <com.example.instagaram.views.NoAutofillEditText
             android:id="@+id/etPassword"
             style="@style/Input"
             android:layout_marginTop="12dp"
             android:hint="@string/hint_password"
-            android:imeOptions="actionNext"
-            android:inputType="textPassword" />
+            android:imeOptions="actionNext|flagNoPersonalizedLearning"
+            android:inputType="text|textNoSuggestions" />
 
         <!-- Shown while the new password is shorter than the minimum -->
         <TextView
@@ -147,13 +147,13 @@
             tools:textColor="@color/like_red"
             tools:visibility="visible" />
 
-        <EditText
+        <com.example.instagaram.views.NoAutofillEditText
             android:id="@+id/etConfirmPassword"
             style="@style/Input"
             android:layout_marginTop="12dp"
             android:hint="@string/hint_confirm_password"
-            android:imeOptions="actionDone"
-            android:inputType="textPassword" />
+            android:imeOptions="actionDone|flagNoPersonalizedLearning"
+            android:inputType="text|textNoSuggestions" />
 
         <!-- Live match feedback, updated while typing the confirmation -->
         <TextView

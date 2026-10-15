@@ -20,6 +20,7 @@ import com.bumptech.glide.Glide;
 import com.example.instagaram.R;
 import com.example.instagaram.databinding.ActivityRegisterBinding;
 import com.example.instagaram.utilities.Constants;
+import com.example.instagaram.utilities.CredentialSaver;
 import com.example.instagaram.utilities.ImageCompressor;
 import com.example.instagaram.utilities.NewPasswordInput;
 import com.example.instagaram.utilities.PreferenceManager;
@@ -176,9 +177,9 @@ public class RegisterActivity extends AppCompatActivity {
                     preferenceManager.putString(Constants.KEY_NAME, binding.etName.getText().toString().trim());
                     preferenceManager.putString(Constants.KEY_USERNAME, binding.etUsername.getText().toString().trim());
                     preferenceManager.putString(Constants.KEY_IMAGE, imageUrl);
-                    Intent intent = new Intent(this, MainActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                    startActivity(intent);
+                    // Same values the account was created with, so the saved login works as is.
+                    CredentialSaver.offerToSave(this, binding.etUsername.getText().toString().trim(),
+                            binding.etPassword.getText().toString(), this::openHome);
                 })
                 .addOnFailureListener(exception -> {
                     loading(false);
@@ -186,6 +187,12 @@ public class RegisterActivity extends AppCompatActivity {
                 });
     }
 
+
+    private void openHome() {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
 
     private final ActivityResultLauncher<PickVisualMediaRequest> pickImage = registerForActivityResult(
             new ActivityResultContracts.PickVisualMedia(),
