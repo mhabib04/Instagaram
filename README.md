@@ -26,7 +26,7 @@ Tersedia dalam **Bahasa Indonesia** dan **Inggris** (mengikuti bahasa perangkat)
 - Bagikan foto ke aplikasi lain
 - Akses cepat ke Pesan Langsung
 
-<p align="center"><img src="docs/screenshots/fitur2.png" alt="Fitur Beranda" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur2.png" alt="Fitur Beranda" width="90%"></p>
 
 ### Postingan
 - Unggah foto dari galeri dengan caption (maks. 50 MB, dikompres otomatis)
@@ -34,7 +34,7 @@ Tersedia dalam **Bahasa Indonesia** dan **Inggris** (mengikuti bahasa perangkat)
 - Daftar akun yang menyukai postingan
 - Hapus postingan sendiri
 
-<p align="center"><img src="docs/screenshots/fitur3.png" alt="Fitur Postingan" width="100%"></p>
+<p align="center"><img src="docs/screenshots/fitur3.png" alt="Fitur Postingan" width="90%"></p>
 
 ### Profil
 - Statistik: jumlah postingan, pengikut, mengikuti, dan total suka
