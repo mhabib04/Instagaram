@@ -107,3 +107,7 @@ flowchart LR
 - **Aplikasi Android** membaca dan menulis data langsung ke **Cloud Firestore**, termasuk pembaruan real-time untuk chat.
 - **Foto** dikompres di perangkat, diunggah ke **Cloudinary**, dan hanya tautannya yang disimpan di Firestore.
 - **Notifikasi** dikirim oleh **AWS Lambda** lewat **Firebase Cloud Messaging**, sehingga kunci server tidak pernah berada di aplikasi.
+
+## Download
+
+**Download APK:** [Instagaram.apk](https://github.com/mhabib04/Instagaram/releases/latest/download/Instagaram.apk) · Android 7.0 ke atas
