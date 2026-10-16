@@ -25,3 +25,8 @@ local.properties
 
 # Firebase client config (holds the API key); download it from the Firebase Console
 /app/google-services.json
+
+# Release builds (the APK is published on GitHub Releases) and signing keys
+/app/release/
+*.jks
+*.keystore
